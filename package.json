@@ -1,0 +1,20 @@
+{
+  "name": "express-digital-portfolio",
+  "version": "0.0.0",
+  "private": true,
+  "scripts": {
+    "build": "cd client && npm run build",
+    "start": "node ./bin/www",
+    "devstart": "nodemon ./bin/www",
+    "serverstart": "set DEBUG=express-digital-portfolio:* & npm run devstart"
+  },
+  "dependencies": {
+    "cookie-parser": "~1.4.4",
+    "debug": "~2.6.9",
+    "express": "^4.18.2",
+    "morgan": "~1.9.1"
+  },
+  "devDependencies": {
+    "nodemon": "^3.0.1"
+  }
+}
